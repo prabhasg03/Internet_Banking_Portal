@@ -1,0 +1,103 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* FULL SCREEN BACKGROUND */
+.login-wrapper {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(rgba(0,0,50,0.8), rgba(0,0,100,0.8)),
+    url('https://images.unsplash.com/photo-1623076523950-76297a71a859?auto=format&fit=crop&w=1350&q=80')
+      no-repeat center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* LOGIN BOX */
+.login-container {
+  background: rgba(0,0,60,0.7);
+  padding: 35px;
+  width: 380px;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.4);
+  text-align: center;
+  color: white;
+}
+
+/* LOGO + TEXT INLINE */
+.login-container h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-size: 26px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+.login-container h1 img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+/* SUBTITLE */
+.login-container h2 {
+  font-weight: 300;
+  margin-bottom: 25px;
+  color: #e6f0ff;
+}
+
+/* INPUT FIELDS */
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+/* BUTTON */
+.login-container button {
+  width: 100%;
+  margin-top: 18px;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  background: #00bfff;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-container button:hover {
+  background: #0099cc;
+  transform: scale(1.03);
+}
+
+/* ERROR */
+.error {
+  margin-top: 12px;
+  color: #ff6666;
+  font-size: 14px;
+}
+
+/* LINKS */
+.login-container p {
+  margin-top: 14px;
+}
+
+.login-container a {
+  color: #66cfff;
+  font-weight: bold;
+}

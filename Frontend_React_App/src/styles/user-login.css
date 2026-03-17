@@ -1,0 +1,130 @@
+/* ===========================
+   user-login.css
+   Styles for login & registration pages
+   =========================== */
+
+/* Reset & base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  background: linear-gradient(rgba(0,0,50,0.8), rgba(0,0,100,0.8)),
+              url('https://images.unsplash.com/photo-1623076523950-76297a71a859?auto=format&fit=crop&w=1350&q=80') 
+              no-repeat center/cover;
+  background-size: cover;
+}
+
+/* ===========================
+   Main container
+   =========================== */
+.container {
+  background: rgba(0,0,50,0.7);
+  padding: 40px 50px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 40px rgba(0,0,80,0.7);
+}
+
+/* ===========================
+   Logo
+   =========================== */
+img.logo {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+/* ===========================
+   Headings
+   =========================== */
+h1 {
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #00d4ff;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 25px;
+  color: #e6eeff;
+}
+
+/* ===========================
+   Form
+   =========================== */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+}
+
+/* ===========================
+   Buttons
+   =========================== */
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  background: #00bfff;
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: #0099cc;
+  transform: scale(1.05);
+}
+
+/* ===========================
+   Error messages
+   =========================== */
+.error {
+  color: #ff6b6b;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+/* ===========================
+   Links
+   =========================== */
+a {
+  color: #00d4ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===========================
+   Optional: welcome message
+   =========================== */
+.welcome-msg {
+  white-space: nowrap;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,64 @@
+body {
+  background: #f4f6f9;
+  margin: 0;
+  font-family: Arial;
+  padding: 0px;
+}
+
+.landing {
+  text-align: center;
+  padding: 40px;
+}
+
+.logo {
+  width: 120px;
+}
+
+.login-box {
+  width: 350px;
+  margin: 40px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+.user-list {
+  float: left;
+  width: 30%;
+  padding: 20px;
+  background: #fff;
+  border-radius: 6px;
+}
+
+.user-editor {
+  float: right;
+  width: 65%;
+  padding: 20px;
+  background: #fff;
+  border-radius: 6px;
+}
+
+.error {
+  color: red;
+}

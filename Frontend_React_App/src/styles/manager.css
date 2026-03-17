@@ -1,0 +1,87 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Full-window background */
+body {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(rgba(0, 0, 40, 0.85), rgba(0, 0, 80, 0.85)),
+    url("https://images.unsplash.com/photo-1623076523950-76297a71a859?auto=format&fit=crop&w=1350&q=80")
+      no-repeat center/cover;
+
+  overflow-x: hidden;
+  color: white;
+}
+
+/* MAIN DASHBOARD CONTAINER */
+.full-dashboard {
+  min-height: 100vh;
+  width: 100vw;
+  padding: 20px;
+}
+
+/* HEADER BAR */
+.header {
+  width: 100%;
+  background: indigo;
+  padding: 18px 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0; /* full width */
+}
+/* LOGO SECTION */
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo-section h1{
+  white-space: nowrap;
+  color: white;
+  font-weight: 600;
+}
+.logo-section img {
+  height: 60px;
+  margin-right: 15px;
+}
+
+.header h1 {
+  font-size: 32px;
+  font-weight: 700;
+  align-items: center;
+}
+
+/* USERS TABLE */
+.table-container {
+  margin-top: 25px;
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+/* PANEL SECTIONS */
+.panel-box {
+  background: rgba(255, 255, 255, 0.12);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Buttons */
+.btn {
+  font-weight: 600;
+}
+
+/* Scrollbar */
+.table-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  background: #0066cc;
+  border-radius: 6px;
+}
