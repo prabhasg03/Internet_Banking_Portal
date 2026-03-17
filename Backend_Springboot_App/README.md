@@ -275,4 +275,3 @@ Global exception handling is implemented in `GlobalExceptionHandler.java` for co
 - Implement account statements generation
 - Add fraud detection mechanisms
 - Integrate with external banking systems</content>
-<parameter name="filePath">c:\Users\SriVenkataPrabhas.G1\SpringBoot Workspace\ATM-Project\README.md
